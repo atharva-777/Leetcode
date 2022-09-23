@@ -12,7 +12,7 @@ public:
     
     int concatenatedBinary(int n) {
         unsigned long long int ans = 0;
-        unsigned long long int M = 1e9+7;
+         int M = 1e9+7;
         
         for(int i=1;i<=n;i++){
             int bits[17];
